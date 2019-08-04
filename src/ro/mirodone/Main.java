@@ -10,5 +10,10 @@ public class Main {
         System.out.println(countVowel.getCount("service"));
         System.out.println(countVowel.getCount("peer tree"));
 
+        CountVowelReg countVowelReg = new CountVowelReg();
+
+        System.out.println(countVowelReg.getCount("service"));
+        System.out.println(countVowelReg.getCount("peer tree"));
+
     }
 }
