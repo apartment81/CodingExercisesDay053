@@ -8,6 +8,7 @@ public class Main {
         CountVowel countVowel = new CountVowel();
 
         System.out.println(countVowel.getCount("service"));
+        System.out.println(countVowel.getCount("peer tree"));
 
     }
 }
